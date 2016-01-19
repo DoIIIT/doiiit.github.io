@@ -19,11 +19,16 @@ gallery:
     - image_url: images/8.jpg
       caption: Great images by Unsplash.com
 ---
-As computing technologies have becoming more ubiquitous and accessible, our interaction with information, people and technology has profoundly changed. The emerging makerspaces and Fablabs all over the world, and the call for studying everyday computing have confirmed such change and need to explore how people can better create and interact with various technologies situated in our environment, from displays to prosthetics to robots to “enchanted” objects. We believe creating a place that supports exploration and investigation of new interactive products and services that will be beneficial to our existing HCI research and support diverse research directions in the future.
+<strong>The Designers of Interactive, Intelligent, Internet of Things (DoIIIT)</strong> is a group of faculty and students at the University of Michigan who are passionate about interactive, intelligent and Internet of things (IoT).
+
+As computing technologies have become more ubiquitous and accessible, our interaction with information, people and technology has profoundly changed. This trend calls for the need to examine how people can better interact with various technologies through the process of making. The goal is to create an immersive environment where people seamlessly interact with digital information and physical artifacts.
+
+Due to its diverse nature, the group currently involves students and faculty from the School of Information, Stamps School of Art and Design, Electrical Engineering and Computer Science, and School of Music, Theatre, and Dance.
+
+We welcome everyone who is interested in exploring the potential of this vision to contribute to future research in Human-Computer Interaction (HCI).
 
 
 <br />
-                <br />
 
 ## Recent Photos
 
