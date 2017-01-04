@@ -11,7 +11,7 @@ description: "DoIIIT studio's website"
 people:
   - name: Chuan-Che (Jeff) Huang
     pic: chuan-che
-    position: UbiComp, Tangible Media, Make Culture, DigiFab
+    position: UbiComp, Tangible Media, Make Culture
     social:
       - title: twitter
         url: #
@@ -21,7 +21,7 @@ people:
         url: #
   - name: Yu-Jen Lin
     pic: yu-jen
-    position: Tangible and Physical Computing, UbiComp, DigiFab
+    position: Tangible and Physical Computing
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/yujenlin1
@@ -51,7 +51,7 @@ people:
         url: #
   - name: Cindy Lin 
     pic: cindy
-    position: HCI4D, ICTD, Cultural Anthoropology, Maker Culture
+    position: Cultural Anthoropology, Maker Culture
     social:
       - title: twitter
         url: #
@@ -61,7 +61,7 @@ people:
         url: #
   - name: Shriti Raj 
     pic: shriti
-    position: Context-Aware Computing, Health Informatics
+    position: Context-Aware, Health Informatics
     social:
       - title: twitter
         url: #
@@ -71,7 +71,7 @@ people:
         url: #
   - name: Jasmine Jones 
     pic: jasmine
-    position: Socio-technical, ICTD, Cultural Anthoropology
+    position: Socio-technical, ICTD
     social:
       - title: twitter
         url: #
