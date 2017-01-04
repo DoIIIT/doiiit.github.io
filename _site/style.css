@@ -807,6 +807,10 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content .content {
+    text-align: left;
+}
+
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
