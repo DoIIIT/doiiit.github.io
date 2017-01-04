@@ -1,18 +1,95 @@
-name: DoIIIT
-author: gparuthi
-description: DoIIIT
-url: http://doiiit.github.io
-highlighter: pygments
-permalink: /:title
-ordered_categories: [research1, research2]
-people_cats: [people1, people2]
-all_tags: [HCI, UbiComp, ICTD, DataMining, Health]
-sass:
-  sass_dir: css
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
+url: https://doiiit.github.io
+baseurl: 
+
+# Site settings
+title: DoIIIT
+email: doiiit-makers@umich.edu
+description: "DoIIIT studio's website"
+
+
+# Team names, titles and social links
+people:
+  - name: Chuan-Che (Jeff) Huang
+    pic: chuan-che
+    position: UbiComp, Tangible Media, Make Culture, DigiFab
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+  - name: Yu-Jen Lin
+    pic: yu-jen
+    position: Tangible and Physical Computing, UbiComp, DigiFab
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/yujenlin1
+      - title: github
+        url: https://github.com/yjlintw
+      - title: user-circle
+        url: http://yjlintw.github.io/yujenlin
+  - name: Pei-Yao Hung
+    pic: pei-yao 
+    position: End-User Programing, CSCW, UbiComp
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+  - name: Shiqing (Licia) He
+    pic: shiqing
+    position: Data Visualization, Graphics
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+  - name: Cindy Lin 
+    pic: cindy
+    position: HCI4D, ICTD, Cultural Anthoropology, Maker Culture
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+  - name: Shriti Raj 
+    pic: shriti
+    position: Context-Aware Computing, Health Informatics
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+  - name: Jasmine Jones 
+    pic: jasmine
+    position: Socio-technical, ICTD, Cultural Anthoropology
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/doiiit
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 105 S.State St. 
+  - line: Ann Arbor, MI 48106
+
+# Build settings
+markdown: kramdown
+permalink: pretty
