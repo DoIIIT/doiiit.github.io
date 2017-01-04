@@ -661,8 +661,8 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 10px auto;
-    height: 160px;
+    margin: 0 auto;
+    height: 80px;
 }
 
 
@@ -740,7 +740,11 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+    line-height: 80px;
+}
+
+footer .list-inline {
+    line-height: 80px;
 }
 
 footer ul.quicklinks {
