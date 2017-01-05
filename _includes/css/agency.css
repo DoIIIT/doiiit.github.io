@@ -662,9 +662,8 @@ section h3.section-subheading {
     }
 }
 
-aside.clients img {
-    margin: 0 auto;
-    height: 80px;
+aside.clients {
+    line-height: 40px;
 }
 
 
@@ -742,11 +741,11 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 80px;
+    line-height: 40px;
 }
 
 footer .list-inline {
-    line-height: 80px;
+    line-height: 40px;
 }
 
 footer ul.quicklinks {
