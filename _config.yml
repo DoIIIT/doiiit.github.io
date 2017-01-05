@@ -79,6 +79,16 @@ people:
         url: #
       - title: github
         url: #
+  - name: Hariharan Subramonyam
+    pic: hari
+    position: Data Visualization, Context-Aware System
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: github
+        url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

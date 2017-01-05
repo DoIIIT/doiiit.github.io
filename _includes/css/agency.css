@@ -652,6 +652,16 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .team-member h4 {
+        height: 2.5em; 
+    }
+    .team-member p {
+        height: 2.5em;
+        margin-bottom: 25px;
+    }
+}
+
 aside.clients img {
     margin: 0 auto;
     height: 80px;
