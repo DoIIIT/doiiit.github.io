@@ -71,14 +71,10 @@ people:
         url: #
   - name: Jasmine Jones 
     pic: jasmine
-    position: Socio-technical, ICTD
+    position: Socio-technical, Culture
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://jazzij.people.si.umich.edu/
   - name: Hariharan Subramonyam
     pic: hari
     position: Data Visualization, Context-Aware System
