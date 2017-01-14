@@ -79,12 +79,38 @@ people:
     pic: hari
     position: Data Visualization, Context-Aware System
     social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/yujenlin1
+      - title: github
+        url: https://github.com/yjlintw
+      - title: user-circle
+        url: http://yjlintw.github.io/yujenlin
+  - name: Sangseok You
+    pic: sseok
+    position: Human-Robot Interaction, Virtual Teams
+    social:
+      - title: user-circle
+        url: http://www.sangseokyou.com
+  - name: Priyank Chandra
+    pic: priyank
+    position: Data Visualization, Context-Aware System
+    social:
       - title: twitter
         url: #
       - title: facebook
         url: #
       - title: github
         url: #
+  - name: Gaurav Paruthi
+    pic: gparuthi
+    position: UbiComp, Data Science, Health
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/gparuthi
+      - title: github
+        url: https://github.com/gparuthi
+      - title: user-circle
+        url: http://www.gauravparuthi.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
