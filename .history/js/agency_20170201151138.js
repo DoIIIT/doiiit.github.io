@@ -36,3 +36,16 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function() {
+$('#responsiveCalendar').fullCalendar({
+header: {
+left: 'prev,next today',
+center: 'title',
+right: 'month,agendaWeek,agendaDay',
+},
+defaultView: 'agendaWeek',
+events: 'http://path/to/your/private/xml/calendar/feed/basic',
+});
+});
+// ]]></script>
