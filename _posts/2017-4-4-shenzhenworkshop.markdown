@@ -3,7 +3,7 @@ title: "Prototypes, Ethnics, and Time: Where Did My Arduino Go?"
 subtitle: Workshop
 layout: default
 modal-id: 3
-date: 2017-4-5
+date: 2017-4-4
 imgs: 
   - path: "shenzhen-workshop-flyer.jpg"
     alt: "workshop flyer"
