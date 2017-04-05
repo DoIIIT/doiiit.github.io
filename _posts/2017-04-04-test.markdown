@@ -2,7 +2,7 @@
 title: "Laser Cutter"
 subtitle: Artworks
 layout: default
-modal-id: 1
+modal-id: 4
 date: 2016-9-1
 imgs: 
   - path: lasercut1.jpg
