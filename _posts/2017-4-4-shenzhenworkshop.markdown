@@ -1,15 +1,15 @@
 ---
-title: "Prototypes, Ethnics, and Time: Where did my Arduino go?"
+title: "Prototypes, Ethnics, and Time: Where Did My Arduino Go?"
 subtitle: Workshop
 layout: default
-modal-id: 4
+modal-id: 3
 date: 2017-4-5
 imgs: 
-  - path: shenzhen-workshop-flyer.jpg
+  - path: "shenzhen-workshop-flyer.jpg"
     alt: "workshop flyer"
 
-thumbnail: shenzhen-workshop-thumbnail.png
-project-date: April 2017
+thumbnail: "shenzhen-workshop-thumbnail.png"
+project-date: Apr 2017
 category: Workshop
 description: "<h1>Prototypes, Ethnics, and Time</h1><br/><h2>Where did my Arduino go?</h2>
 
