@@ -9,7 +9,7 @@ imgs:
     alt: "workshop flyer"
 
 thumbnail: shenzhen-workshop-thumbnail.png
-project-date: Apirl 2017
+project-date: April 2017
 category: Workshop
 description: "<h1>Prototypes, Ethnics, and Time</h1><br/><h2>Where did my Arduino go?</h2>
 
