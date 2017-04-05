@@ -13,12 +13,8 @@ people:
     pic: chuan-che
     position: UbiComp, Tangible Media, Make Culture
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://ccjeffhuang.com
   - name: Yu-Jen Lin
     pic: yu-jen
     position: Tangible and Physical Computing
@@ -33,42 +29,28 @@ people:
     pic: pei-yao 
     position: End-User Programing, CSCW, UbiComp
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://peiyaoh.people.si.umich.edu/
   - name: Shiqing (Licia) He
     pic: shiqing
     position: Data Visualization, Graphics
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://licia.eyesofpanda.com/
   - name: Cindy Lin 
     pic: cindy
-    position: Cultural Anthoropology, Maker Culture
+    position: STS, Hacking, Artscience
     social:
+      - title: user-circle
+        url: http://cindylin.org
       - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+        url: https://twitter.com/cindylky_
   - name: Shriti Raj 
     pic: shriti
     position: Context-Aware, Health Informatics
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://shritir.weebly.com/
   - name: Jasmine Jones 
     pic: jasmine
     position: Socio-technical, Culture
@@ -79,12 +61,8 @@ people:
     pic: hari
     position: Data Visualization, Context-Aware System
     social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/yujenlin1
-      - title: github
-        url: https://github.com/yjlintw
       - title: user-circle
-        url: http://yjlintw.github.io/yujenlin
+        url: http://haridecoded.com/
   - name: Sangseok You
     pic: sseok
     position: Human-Robot Interaction, Virtual Teams
@@ -93,14 +71,10 @@ people:
         url: http://www.sangseokyou.com
   - name: Priyank Chandra
     pic: priyank
-    position: Data Visualization, Context-Aware System
+    position: ICTD, Technology Appropriation
     social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: github
-        url: #
+      - title: user-circle
+        url: http://www.priyankc.com
   - name: Gaurav Paruthi
     pic: gparuthi
     position: UbiComp, Data Science, Health
