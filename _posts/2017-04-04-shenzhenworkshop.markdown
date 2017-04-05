@@ -1,6 +1,6 @@
 ---
 title: "Prototypes, Ethnics, and Time: Where Did My Arduino Go?"
-subtitle: Workshop
+subtitle: April 5, 2017
 layout: default
 modal-id: 3
 date: 2017-04-04

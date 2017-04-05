@@ -1,6 +1,6 @@
 ---
 title: "Laser Cutting Workshop"
-subtitle: Workshop
+subtitle: Sep 1, 2016
 layout: default
 modal-id: 1
 date: 2016-9-1

@@ -1,6 +1,6 @@
 ---
-title: "Critical Making"
-subtitle: Workshop
+title: "Critical Making Workshop"
+subtitle: Oct. 17, 2016
 layout: default
 modal-id: 2
 date: 2016-10-17
