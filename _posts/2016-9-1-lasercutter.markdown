@@ -1,6 +1,6 @@
 ---
-title: "Laser Cutter"
-subtitle: Artworks
+title: "Laser Cutting Workshop"
+subtitle: Workshop
 layout: default
 modal-id: 1
 date: 2016-9-1
