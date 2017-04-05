@@ -7,6 +7,8 @@ date: 2017-4-4
 imgs: 
   - path: "shenzhen-workshop-flyer.jpg"
     alt: "workshop flyer"
+  - path: lasercut2.jpg
+    alt: "Laser Cut 2"
 
 thumbnail: "shenzhen-workshop-thumbnail.png"
 project-date: Apr 2017
