@@ -3,15 +3,13 @@ title: "Prototypes, Ethnics, and Time: Where Did My Arduino Go?"
 subtitle: Workshop
 layout: default
 modal-id: 3
-date: 2016-9-1
+date: 2017-04-04
 imgs: 
-  - path: lasercut1.jpg
-    alt: "Laser Cut 1"
-  - path: lasercut2.jpg
-    alt: "Laser Cut 2"
+  - path: shenzhen-workshop-flyer.jpg
+    alt: "workshop flyer"
 
-thumbnail: lasercut-thumbnail.jpg
-project-date: Sep 2016
+thumbnail: "shenzhen-workshop-thumbnail.png"
+project-date: Apr 2017
 category: Workshop
 description: "<h1>Prototypes, Ethnics, and Time</h1><br/><h2>Where did my Arduino go?</h2>
 
