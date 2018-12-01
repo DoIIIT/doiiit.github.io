@@ -1,3 +1,4 @@
+
 ---
 title: "The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation"
 subtitle: Dec. 6, 2018
@@ -26,7 +27,7 @@ description: "<p>The Data of Watercolor: Creating & Analyzing Watercolor Art to 
 
 <p> Future Workshops in 2019 </p>
 
-<p> Generative art in javascript/python: </p>
+<p> Generative art in javascript/python </p>
 <p> Introduce generative art resources </p>
 <p> Tutorial for basic image processing in python </p>
 <p> Discussion for physical + digital creations  </p>
