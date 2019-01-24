@@ -35,11 +35,11 @@ description: "
 <li> Paint making +  painting section
 </ul>
 
-<p>Sponsored by Rackham Interdisciplinary Workshop</p>
+Sponsored by Rackham Interdisciplinary Workshop
 
 <p>Organized by</p>
-<p>Licia (Workshop Leader), cindy, Mauli</p>
-<p>Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things 2018/2019</p>
-<p>doiiit.github.io</p>
+Licia (Workshop Leader), cindy, Mauli
+Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things 2018/2019
+doiiit.github.io
 "
 ---
