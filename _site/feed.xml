@@ -3,19 +3,19 @@
   <channel>
     <title>DoIIIT</title>
     <description>DoIIIT studio's website</description>
-    <link>https://doiiit.github.io/</link>
-    <atom:link href="https://doiiit.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Feb 2017 15:32:29 -0500</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2017 15:32:29 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 24 Jan 2019 16:04:55 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Jan 2019 16:04:55 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Critical Making</title>
+        <title>The Data of Watercolor: Creating &amp; Analyzing Watercolor Art to Support Generative Art Creation</title>
         <description>
 </description>
-        <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
-        <link>https://doiiit.github.io/workshop/2016/10/17/criticalmaking/</link>
-        <guid isPermaLink="true">https://doiiit.github.io/workshop/2016/10/17/criticalmaking/</guid>
+        <pubDate>Tue, 18 Dec 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/workshop/2018/12/18/data-watercolor/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2018/12/18/data-watercolor/</guid>
         
         
         <category>Workshop</category>
@@ -23,12 +23,51 @@
       </item>
     
       <item>
-        <title>Laser Cutter</title>
+        <title>Fashion/Wearable Tech: Chat with Anina Net, CEO of 360Fash.com</title>
+        <description>
+</description>
+        <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2017/04/11/aninanet/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2017/04/11/aninanet/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Prototypes, Ethnics, and Time: Where Did My Arduino Go?</title>
+        <description>
+</description>
+        <pubDate>Tue, 04 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2017/04/04/shenzhenworkshop/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2017/04/04/shenzhenworkshop/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Critical Making Workshop</title>
+        <description>
+</description>
+        <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2016/10/17/criticalmaking/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2016/10/17/criticalmaking/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Laser Cutting Workshop</title>
         <description>
 </description>
         <pubDate>Thu, 01 Sep 2016 00:00:00 -0400</pubDate>
-        <link>https://doiiit.github.io/workshop/2016/09/01/lasercutter/</link>
-        <guid isPermaLink="true">https://doiiit.github.io/workshop/2016/09/01/lasercutter/</guid>
+        <link>http://localhost:4000/workshop/2016/09/01/lasercutter/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2016/09/01/lasercutter/</guid>
         
         
         <category>Workshop</category>
