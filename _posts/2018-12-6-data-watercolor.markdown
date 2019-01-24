@@ -20,19 +20,20 @@ description: "
 
 <p>Program Objectives</p>
 <ul>
-  <li> 1. Build a connection between pigments, watercolor forms, and digital creations </p>
-  <li> 2. Creating, collecting, and digitizing original watercolor art </p>
-  <li> 3. Exploring possibilities of applying data science methods in generative art (i.e. if you treat colors/art pieces as datasets, what would you want to get from the dataset?) </p>
-  <li> 4. Create physical art pieces for DoIIIT's exhibition area + digital interactive pieces for the display area </p>
+  <li> Build a connection between pigments, watercolor forms, and digital creations 
+  <li> Creating, collecting, and digitizing original watercolor art 
+  <li> Exploring possibilities of applying data science methods in generative art (i.e. if you treat colors/art pieces as datasets, what would you want to get from the dataset?) 
+  <li> Create physical art pieces for DoIIIT's exhibition area + digital interactive pieces for the display area 
 </ul>
 
 <p> Future Workshops in 2019 </p>
-
-<p> Generative art in javascript/python </p>
-<p> Introduce generative art resources </p>
-<p> Tutorial for basic image processing in python </p>
-<p> Discussion for physical + digital creations  </p>
-<p> Paint making +  painting section </p>
+<ul>
+<li> Generative art in javascript/python
+<li> Introduce generative art resources
+<li> Tutorial for basic image processing in python 
+<li> Discussion for physical + digital creations  
+<li> Paint making +  painting section
+</ul>
 
 <p>Sponsored by Rackham Interdisciplinary Workshop</p>
 
