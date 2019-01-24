@@ -1,4 +1,3 @@
-
 ---
 title: "The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation"
 subtitle: Dec. 6, 2018
@@ -12,7 +11,8 @@ imgs:
 thumbnail: criticalmaking-thumbnail.jpg
 project-date: Dec 2018
 category: Workshop
-description: "<p>The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation</p>
+description: "
+<p>The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation</p>
 
 <p> DoIIIT is excited to announce a series of generative art experiments workshops during the upcoming week & Winter semester 2019. In this series of workshops entitled: "The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation", we invite a group of students and faculty who are passionate about redesigning processes of traditional art with digital tools and platforms. Creative outcomes of these workshops will be exhibited in the DOIIIT exhibition area, located on the 4th floor of the North Quad.</p>
 
@@ -38,5 +38,6 @@ description: "<p>The Data of Watercolor: Creating & Analyzing Watercolor Art to 
 <p>Organized by</p>
 <p>Licia (Workshop Leader), cindy, Mauli</p>
 <p>Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things 2018/2019</p>
-<p>doiiit.github.io</p>"
+<p>doiiit.github.io</p>
+"
 ---
