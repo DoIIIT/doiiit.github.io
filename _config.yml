@@ -1,5 +1,5 @@
 url: https://doiiit.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: DoIIIT
@@ -26,7 +26,7 @@ people:
       - title: user-circle
         url: http://yjlintw.github.io/yujenlin
   - name: Pei-Yao Hung
-    pic: pei-yao 
+    pic: pei-yao
     position: End-User Programing, CSCW, UbiComp
     social:
       - title: user-circle
@@ -37,7 +37,7 @@ people:
     social:
       - title: user-circle
         url: http://licia.eyesofpanda.com/
-  - name: Cindy Lin 
+  - name: Cindy Lin
     pic: cindy
     position: STS, Hacking, Artscience
     social:
@@ -45,13 +45,13 @@ people:
         url: http://cindylin.org
       - title: twitter
         url: https://twitter.com/cindylky_
-  - name: Shriti Raj 
+  - name: Shriti Raj
     pic: shriti
     position: Context-Aware, Health Informatics
     social:
       - title: user-circle
         url: http://shritir.weebly.com/
-  - name: Jasmine Jones 
+  - name: Jasmine Jones
     pic: jasmine
     position: Socio-technical, Culture
     social:
@@ -93,9 +93,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 105 S.State St. 
+  - line: 105 S.State St.
   - line: Ann Arbor, MI 48106
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+timezone: America/Detroit
