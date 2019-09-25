@@ -1,0 +1,102 @@
+url: https://doiiit.github.io
+baseurl:
+
+# Site settings
+title: DoIIIT
+email: doiiit-makers@umich.edu
+description: "DoIIIT studio's website"
+
+
+# Team names, titles and social links
+people:
+  - name: Chuan-Che (Jeff) Huang
+    pic: chuan-che
+    position: UbiComp, Tangible Media, Make Culture
+    social:
+      - title: user-circle
+        url: http://ccjeffhuang.com
+  - name: Yu-Jen Lin
+    pic: yu-jen
+    position: Tangible and Physical Computing
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/yujenlin1
+      - title: github
+        url: https://github.com/yjlintw
+      - title: user-circle
+        url: http://yjlintw.github.io/yujenlin
+  - name: Pei-Yao Hung
+    pic: pei-yao
+    position: End-User Programing, CSCW, UbiComp
+    social:
+      - title: user-circle
+        url: http://peiyaoh.people.si.umich.edu/
+  - name: Shiqing (Licia) He
+    pic: shiqing
+    position: Data Visualization, Graphics
+    social:
+      - title: user-circle
+        url: http://licia.eyesofpanda.com/
+  - name: Cindy Lin
+    pic: cindy
+    position: STS, Hacking, Artscience
+    social:
+      - title: user-circle
+        url: http://cindylin.org
+      - title: twitter
+        url: https://twitter.com/cindylky_
+  - name: Shriti Raj
+    pic: shriti
+    position: Context-Aware, Health Informatics
+    social:
+      - title: user-circle
+        url: http://shritir.weebly.com/
+  - name: Jasmine Jones
+    pic: jasmine
+    position: Socio-technical, Culture
+    social:
+      - title: user-circle
+        url: http://jazzij.people.si.umich.edu/
+  - name: Hariharan Subramonyam
+    pic: hari
+    position: Data Visualization, Context-Aware System
+    social:
+      - title: user-circle
+        url: http://haridecoded.com/
+  - name: Sangseok You
+    pic: sseok
+    position: Human-Robot Interaction, Virtual Teams
+    social:
+      - title: user-circle
+        url: http://www.sangseokyou.com
+  - name: Priyank Chandra
+    pic: priyank
+    position: ICTD, Technology Appropriation
+    social:
+      - title: user-circle
+        url: http://www.priyankc.com
+  - name: Gaurav Paruthi
+    pic: gparuthi
+    position: UbiComp, Data Science, Health
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/gparuthi
+      - title: github
+        url: https://github.com/gparuthi
+      - title: user-circle
+        url: http://www.gauravparuthi.com
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/doiiit
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 105 S.State St.
+  - line: Ann Arbor, MI 48106
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+future: true

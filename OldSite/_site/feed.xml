@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DoIIIT</title>
+    <description>DoIIIT studio's website</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 24 Sep 2019 18:46:37 -0400</pubDate>
+    <lastBuildDate>Tue, 24 Sep 2019 18:46:37 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>The Data of Watercolor: Creating &amp; Analyzing Watercolor Art to Support Generative Art Creation</title>
+        <description>
+</description>
+        <pubDate>Tue, 18 Dec 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/workshop/2018/12/18/data-watercolor/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2018/12/18/data-watercolor/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Fashion/Wearable Tech: Chat with Anina Net, CEO of 360Fash.com</title>
+        <description>
+</description>
+        <pubDate>Tue, 11 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2017/04/11/aninanet/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2017/04/11/aninanet/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Prototypes, Ethnics, and Time: Where Did My Arduino Go?</title>
+        <description>
+</description>
+        <pubDate>Tue, 04 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2017/04/04/shenzhenworkshop/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2017/04/04/shenzhenworkshop/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Critical Making Workshop</title>
+        <description>
+</description>
+        <pubDate>Mon, 17 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2016/10/17/criticalmaking/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2016/10/17/criticalmaking/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+      <item>
+        <title>Laser Cutting Workshop</title>
+        <description>
+</description>
+        <pubDate>Thu, 01 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/workshop/2016/09/01/lasercutter/</link>
+        <guid isPermaLink="true">http://localhost:4000/workshop/2016/09/01/lasercutter/</guid>
+        
+        
+        <category>Workshop</category>
+        
+      </item>
+    
+  </channel>
+</rss>

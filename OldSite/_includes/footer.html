@@ -1,0 +1,28 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+            </li>
+          {% endfor %}
+          <li><a href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <!-- Clients Aside -->
+        <aside class="clients">
+                <a href="http://umich.edu">University of Michigan</a> | 
+                <a href="http://si.umich.edu/">UMSI</a> | 
+                <a href="http://misc.si.umich.edu">MISC</a>
+            </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</footer>

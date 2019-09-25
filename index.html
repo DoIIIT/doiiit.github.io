@@ -1,20 +1,851 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="home">
+<head>
 
-  <h1>Posts</h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <title>DoIIIT</title>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</div>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">DoIIIT</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Visions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <!--li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome To Our Studio!</div>
+        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Vision -->
+      <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Visions</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <p>The Designers of Interactive, Intelligent, Internet of Things (DoIIIT) is a group of faculty and students at the University of Michigan who are passionate about interactive, intelligent and Internet of things (IoT). The DoIIIT is part of and is supported by the <a href="https://rackham.umich.edu/faculty-and-staff/faculty-and-program-funding/rackham-interdisciplinary-workshops/">Rackham Interdisciplinary Workshops</a>.</p>
+
+                  <p>As computing technologies have become more ubiquitous and accessible, our interaction with information, people and technology has profoundly changed. This trend calls for the need to examine how people can better interact with various technologies through the process of making. The goal is to create an immersive environment where people seamlessly interact with digital information and physical artifacts.</p>
+
+                  <p>Due to its diverse nature, the group currently involves students and faculty from the School of Information, Stamps School of Art and Design, Electrical Engineering and Computer Science, and School of Music, Theatre, and Dance.</p>
+
+                  <p>We welcome everyone who is interested in exploring the potential of this vision to contribute to future research in Human-Computer Interaction (HCI).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Events</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/default.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation</h4>
+            <p class="text-muted">Dec. 6, 2018</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/fashion-tech-thumbnail.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Fashion/Wearable Tech: Chat with Anina Net, CEO of 360Fash.com</h4>
+            <p class="text-muted">April 11, 2017</p>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/shenzhen-workshop-thumbnail.png" class="img-responsive img-centered" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Prototypes, Ethnics, and Time: Where Did My Arduino Go?</h4>
+                <p class="text-muted">April 5, 2017</p>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/criticalmaking-thumbnail.jpg" class="img-responsive img-centered" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Critical Making Workshop</h4>
+                <p class="text-muted">Oct. 17, 2016</p>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/lasercut-thumbnail.jpg" class="img-responsive img-centered" alt="">
+            </a>
+            <div class="portfolio-caption">
+                <h4>Laser Cutting Workshop</h4>
+                <p class="text-muted">Sep 1, 2016</p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">The journey of DoIIIT Studio.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/founded.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Fall 2014</h4>
+                  <h4 class="subheading">DoIIIT Studio Founded</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/doiiitlogo.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>February 2016</h4>
+                    <h4 class="subheading">DoIIIT Logo</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/studio-revamp.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>July 2016</h4>
+                    <h4 class="subheading">Studio Revamped</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3dprinter.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>August 2016</h4>
+                    <h4 class="subheading">Our First DIY 3D Printer</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/lasercutter.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>September 2016</h4>
+                    <h4 class="subheading">Laser Cutter Arrived</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/criticalmaking.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>October 2016</h4>
+                    <h4 class="subheading">Critical Making: Body Politics Workshop</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">With special guest Leah Buechley, former MIT Media Lab professor and creator of Lilypad Arduino, for an hands-on interactive workshop on creating expressive wearables</p>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/lasercutter-workshop.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>October 2016</h4>
+                    <h4 class="subheading">digiFab 101: Laser Cutter Training</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Be Part
+                  <br>Of Our
+                  <br>Story!</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light page-section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/chuan-che.jpg" alt="">
+            <h4>Chuan-Che (Jeff) Huang</h4>
+            <p class="text-muted">UbiComp, Tangible Media, Make Culture</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="http://ccjeffhuang.com">
+                  <i class="fab fa-user-circle"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/yu-jen.jpg" alt="">
+            <h4>Yu-Jen Lin</h4>
+            <p class="text-muted">Tangible and Physical Computing</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yujenlin1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/yjlintw">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="http://yjlintw.github.io/yujenlin">
+                  <i class="fab fa-user-circle"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/pei-yao.jpg" alt="">
+            <h4>Pei-Yao Hung</h4>
+            <p class="text-muted">End-User Programing, CSCW, UbiComp</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="http://peiyaoh.people.si.umich.edu/">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/shiqing.jpg" alt="">
+            <h4>Shiqing (Licia) He</h4>
+            <p class="text-muted">End-User Programing, CSCW, UbiComp</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="http://licia.eyesofpanda.com/">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/cindy.jpg" alt="">
+            <h4>Cindy Lin</h4>
+            <p class="text-muted">STS, Hacking, Artscience</p>
+            <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="http://cindylin.org">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://twitter.com/cindylky_">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/shriti.jpg" alt="">
+            <h4>Shriti Raj</h4>
+            <p class="text-muted">Context-Aware, Health Informatics</p>
+            <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="http://shritir.weebly.com/">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/jasmine.jpg" alt="">
+            <h4>Jasmine Jones</h4>
+            <p class="text-muted">Socio-technical, Culture</p>
+            <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="http://jazzij.people.si.umich.edu/">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/hari.jpg" alt="">
+            <h4>Hariharan Subramonyam</h4>
+            <p class="text-muted">Data Visualization, Context-Aware System</p>
+            <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="http://haridecoded.com/">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/sseok.jpg" alt="">
+            <h4>Sangseok You</h4>
+            <p class="text-muted">Human-Robot Interaction, Virtual Teams</p>
+            <ul class="list-inline social-buttons">
+           <li class="list-inline-item">
+                <a href="http://www.sangseokyou.com">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/priyank.jpg" alt="">
+            <h4>Priyank Chandra</h4>
+            <p class="text-muted">ICTD, Technology Appropriation</p>
+            <ul class="list-inline social-buttons">
+           <li class="list-inline-item">
+                <a href="http://www.priyankc.com">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/gparuthi.jpg" alt="">
+            <h4>Gaurav Paruthi</h4>
+            <p class="text-muted">UbiComp, Data Science, Health</p>
+            <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/gparuthi">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://github.com/gparuthi">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="http://www.gauravparuthi.com">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+      </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Affiliated Faculty</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+
+
+  <!-- Contact -->
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; DoIIIT 2019</span>
+        </div>
+        <!-- <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li><a href="http://github.com/doiiit"><i class="fa fa-github"></i></a>
+            </li>
+
+            <li><a href="mailto:doiiit-makers@umich.edu"><i class="fa fa-envelope"></i></a>
+            </li>
+
+          </ul>
+        </div> -->
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <a href="http://umich.edu">University of Michigan</a> |
+            <a href="http://si.umich.edu/">UMSI</a> |
+            <a href="http://misc.si.umich.edu">MISC</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <div class="modal-body">
+                            <h2>The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation</h2>
+                            <hr class="star-primary">
+
+                            <img src="img/portfolio/default.png" class="img-responsive img-centered" alt="Untitled by Licia He">
+
+                            <div class="content"> <p>The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation</p>
+                                <p> DoIIIT is excited to announce a series of generative art experiments workshops during the upcoming week & Winter semester 2019. In this series of workshops entitled: "The Data of Watercolor: Creating & Analyzing Watercolor Art to Support Generative Art Creation", we invite a group of students and faculty who are passionate about redesigning processes of traditional art with digital tools and platforms. Creative outcomes of these workshops will be exhibited in the DOIIIT exhibition area, located on the 4th floor of the North Quad.</p>
+                                <p>The first workshop will start next Thursday (12.6) from 12-3pm. In this event, we will introduce the project objective/resource, and watercolor making techniques. Participants will get hands-on experience in making watercolor paint from pigment and binders. </p>
+                                <p>Program Objectives</p> <ul> <li> Build a connection between pigments, watercolor forms, and digital creations <li> Creating, collecting, and digitizing original watercolor art <li> Exploring possibilities of applying data science methods in generative art (i.e. if you treat colors/art pieces as datasets, what would you want to get from the dataset?) <li> Create physical art pieces for DoIIIT's exhibition area + digital interactive pieces for the display area </ul>
+                                <p> Future Workshops in 2019 </p> <ul> <li> Generative art in javascript/python <li> Introduce generative art resources <li> Tutorial for basic image processing in python <li> Discussion for physical + digital creations <li> Paint making +  painting section </ul>
+                                Sponsored by Rackham Interdisciplinary Workshop
+                                <p>Organized by</p> Licia (Workshop Leader), cindy, Mauli Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things 2018/2019 doiiit.github.io </div>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">Dec 2018</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Fashion/Wearable Tech: Chat with Anina Net, CEO of 360Fash.com</h2>
+                <hr class="star-primary">
+
+                <img src="img/portfolio/fashion-tech-thumbnail.png" class="img-responsive img-centered" alt="workshop flyer">
+
+                <div class="content">
+                    <p> Anina Net, the CEO of 360Fash.com is coming to showcase her work, including the robotic dress kit, the LED bags and many others (see figures below).  </p>
+                    <h3>About Anina</h3> <p> Anina, also known by the pseudonym Anina.net, is an American-born international fashion model, blogger, and fashion technology and wearables event producer.
+                    She has a following in China. China Central Television awarded her ''China's top foreign model'' in 2009. She also has her own line of Anime-inspired clothes, ''aninaMINEme''.
+                    She is CEO and founder of 360Fashion Network, a network of fashion professionals using the web 2.0 and mobile technologies.
+                    Anina.net produces large fashion technology events in Asia such as the 360Fashion&Tech Expo (in its 4th year) together with the China National Garment Association CHIC show, which has over 125,000 people in attendance and the first high tech runway fashion show in China at the Mobile World Congress, Shanghai. She produced the IBM 360Fashion & Tech Innovation Awards in the United States in November 2015, though her first exhibition was in 2004, called ''a new kind of supermodel'' at Molière's house in Paris under the art posthume movement. Anina was the first model blogger, starting in 2004.
+                    Anina.net brings designers and technologists together to create one-of-a-kind designs for exhibition such as the Robotic Dress, laser dresses, LED bags and gloves, solar powered bags, 3D printed prosthetics, redesign of robots and mobile apps.</p>
+                    <p>Organized by<br/> Cindy, Jasmine, Jeff<br/> Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things<br/> doiiit.github.io</p> </div>
+                <ul class="list-inline item-details">
+                    <li>Date:
+                        <strong><a href="http://startbootstrap.com">Apr 2017</a>
+                        </strong>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Prototypes, Ethnics, and Time: Where Did My Arduino Go?</h2>
+                <hr class="star-primary">
+                <img src="img/portfolio/shenzhen-workshop-flyer.jpg" class="img-responsive img-centered" alt="workshop flyer">
+                <div class="content"> <p>During this workshop, we invite participants to think, design and build open source hardware prototypes and products in consideration of their time cycles - its movement across geological, social and economic timelines. These timelines help us understand how technological artifacts transform over time in consideration of market fluctuations and trends, environmental concerns and constraints as well as sociopolitical shifts and policy changes.</p>
+                <p> The goal of the workshop is to explore the different timelines typical to different models of product development and hardware production. We add to conversations around agile and ''rapid prototyping'' and traditional corporate design timelines a more global and holistic consideration of time and making, drawing inspiration from China's shanzhai (山寨) culture.
+                <p> With shanzhai as a critical element that enabled the growth of open source hardware, we will examine technology life cycles (production, use, discard, recycle) in the context of their impact of labor, environment, and social change. We consider where prototypes we have made and/or products we possess go, from its initial production, replication, distribution and use, asking questions like ''How can I make the first 100 units of my first prototypes?'' and ''What is this made of and where does it come from?'' </p>
+                <p>Organized by<br/> Cindy, Jasmine, Jeff<br/> Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things<br/> doiiit.github.io</p> </div>
+                <ul class="list-inline item-details">
+                    <li>Date:
+                        <strong><a href="http://startbootstrap.com">Apr 2017</a>
+                        </strong>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Critical Making Workshop</h2>
+                <hr class="star-primary">
+
+                <img src="img/portfolio/criticalmaking.jpg" class="img-responsive img-centered" alt="photo of panel session">
+
+                <img src="img/portfolio/leah.jpg" class="img-responsive img-centered" alt="Leah Buechley">
+
+                <div class="content"><p>Critical Making: Body Politics</p> <p>Exploring Identity, Expression, and Corporeality through the creative process</p>
+                <p>Join us Monday to Tuesday, October 17-18, 2016 with special guest Leah Buechley, former MIT Media Lab professor and creator of Lilypad Arduino, for an hands-on interactive workshop on creating expressive wearables.</p>
+                <p>You may have seen the Porcupine Dress, heard of the world’s first “eyeborg”, or be a fan of Viktoria Modesta’s fusion of fashion, music, and prosthetics.</p>
+                <p>Ever wondered how to create something like that? Do you have your own story to tell through design and making?</p>
+                <p>In this workshop students of all levels - bachelors, masters, and PhD - will learn about and discuss critical making from a variety of perspectives, join a team of 2 -3 others to design and prototype their own wearable, and have an opportunity to hear Leah's personal journey. Workshop sessions include an overview of critical making, wearable technology tutorial, issues related to body politics, and a make-a-thon. The event culminates in a panel discussion with Leah and invited guests, followed by presentations of prototypes and discussion.</p>
+                <p>Sponsored by UMSI Diversity Committee</p>
+                <p>Organized by</p> <p>Jeff, Cindy, Shriti, Jasmine, Yu-Jen, Licia</p> <p>Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things</p> <p>doiiit.github.io</p></div>
+                <ul class="list-inline item-details">
+                    <li>Date:
+                        <strong><a href="http://startbootstrap.com">Oct 2016</a>
+                        </strong>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2>Critical Making Workshop</h2>
+                <hr class="star-primary">
+
+                <img src="img/portfolio/criticalmaking.jpg" class="img-responsive img-centered" alt="photo of panel session">
+
+                <img src="img/portfolio/leah.jpg" class="img-responsive img-centered" alt="Leah Buechley">
+
+                <div class="content"><p>Critical Making: Body Politics</p> <p>Exploring Identity, Expression, and Corporeality through the creative process</p>
+                <p>Join us Monday to Tuesday, October 17-18, 2016 with special guest Leah Buechley, former MIT Media Lab professor and creator of Lilypad Arduino, for an hands-on interactive workshop on creating expressive wearables.</p>
+                <p>You may have seen the Porcupine Dress, heard of the world’s first “eyeborg”, or be a fan of Viktoria Modesta’s fusion of fashion, music, and prosthetics.</p>
+                <p>Ever wondered how to create something like that? Do you have your own story to tell through design and making?</p>
+                <p>In this workshop students of all levels - bachelors, masters, and PhD - will learn about and discuss critical making from a variety of perspectives, join a team of 2 -3 others to design and prototype their own wearable, and have an opportunity to hear Leah's personal journey. Workshop sessions include an overview of critical making, wearable technology tutorial, issues related to body politics, and a make-a-thon. The event culminates in a panel discussion with Leah and invited guests, followed by presentations of prototypes and discussion.</p>
+                <p>Sponsored by UMSI Diversity Committee</p>
+                <p>Organized by</p> <p>Jeff, Cindy, Shriti, Jasmine, Yu-Jen, Licia</p> <p>Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things</p> <p>doiiit.github.io</p></div>
+                <ul class="list-inline item-details">
+                    <li>Date:
+                        <strong><a href="http://startbootstrap.com">Oct 2016</a>
+                        </strong>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Critical Making Workshop</h2>
+                <hr class="star-primary">
+
+                <img src="img/portfolio/criticalmaking.jpg" class="img-responsive img-centered" alt="photo of panel session">
+
+                <img src="img/portfolio/leah.jpg" class="img-responsive img-centered" alt="Leah Buechley">
+
+                <div class="content"><p>Critical Making: Body Politics</p> <p>Exploring Identity, Expression, and Corporeality through the creative process</p>
+                <p>Join us Monday to Tuesday, October 17-18, 2016 with special guest Leah Buechley, former MIT Media Lab professor and creator of Lilypad Arduino, for an hands-on interactive workshop on creating expressive wearables.</p>
+                <p>You may have seen the Porcupine Dress, heard of the world’s first “eyeborg”, or be a fan of Viktoria Modesta’s fusion of fashion, music, and prosthetics.</p>
+                <p>Ever wondered how to create something like that? Do you have your own story to tell through design and making?</p>
+                <p>In this workshop students of all levels - bachelors, masters, and PhD - will learn about and discuss critical making from a variety of perspectives, join a team of 2 -3 others to design and prototype their own wearable, and have an opportunity to hear Leah's personal journey. Workshop sessions include an overview of critical making, wearable technology tutorial, issues related to body politics, and a make-a-thon. The event culminates in a panel discussion with Leah and invited guests, followed by presentations of prototypes and discussion.</p>
+                <p>Sponsored by UMSI Diversity Committee</p>
+                <p>Organized by</p> <p>Jeff, Cindy, Shriti, Jasmine, Yu-Jen, Licia</p> <p>Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things</p> <p>doiiit.github.io</p></div>
+                <ul class="list-inline item-details">
+                    <li>Date:
+                        <strong><a href="http://startbootstrap.com">Oct 2016</a>
+                        </strong>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

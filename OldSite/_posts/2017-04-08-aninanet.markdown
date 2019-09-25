@@ -1,0 +1,33 @@
+---
+title: "Fashion/Wearable Tech: Chat with Anina Net, CEO of 360Fash.com"
+subtitle: April 11, 2017
+layout: default
+modal-id: 4
+date: 2017-04-11
+imgs: 
+  - path: fashion-tech-thumbnail.png
+    alt: "workshop flyer"
+
+thumbnail: "fashion-tech-thumbnail.png"
+project-date: Apr 2017
+category: Workshop
+description: "
+<p> Anina Net, the CEO of 360Fash.com is coming to showcase her work, including the robotic dress kit, the LED bags and many others (see figures below).  </p>
+
+<h3>About Anina</h3>
+<p> Anina, also known by the pseudonym Anina.net, is an American-born international fashion model, blogger, and fashion technology and wearables event producer.
+
+She has a following in China. China Central Television awarded her ''China's top foreign model'' in 2009. She also has her own line of Anime-inspired clothes, ''aninaMINEme''.
+
+She is CEO and founder of 360Fashion Network, a network of fashion professionals using the web 2.0 and mobile technologies.
+
+Anina.net produces large fashion technology events in Asia such as the 360Fashion&Tech Expo (in its 4th year) together with the China National Garment Association CHIC show, which has over 125,000 people in attendance and the first high tech runway fashion show in China at the Mobile World Congress, Shanghai. She produced the IBM 360Fashion & Tech Innovation Awards in the United States in November 2015, though her first exhibition was in 2004, called ''a new kind of supermodel'' at Molière's house in Paris under the art posthume movement. Anina was the first model blogger, starting in 2004. 
+
+Anina.net brings designers and technologists together to create one-of-a-kind designs for exhibition such as the Robotic Dress, laser dresses, LED bags and gloves, solar powered bags, 3D printed prosthetics, redesign of robots and mobile apps.</p>
+
+<p>Organized by<br/>
+Cindy, Jasmine, Jeff<br/>
+Organizing Committee of DoIIIT - Designers of Interactive, Intelligent, and Interconnected Things<br/>
+doiiit.github.io</p>
+"
+---
